@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from fastapi import FastAPI
 from blockchain.blockchain import Blockchain
 from blockchain.node import Node

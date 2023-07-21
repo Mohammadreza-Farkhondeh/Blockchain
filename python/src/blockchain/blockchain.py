@@ -1,5 +1,7 @@
-from transaction import Transaction, TransactionOutput
+from .transaction import Transaction, TransactionOutput
+from .block import Block
 import requests
+import time
 
 class Blockchain:
     def __init__(self, difficulty, pending_transactions, nodes):
